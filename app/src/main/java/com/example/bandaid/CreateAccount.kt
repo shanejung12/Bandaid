@@ -6,6 +6,6 @@ import android.os.Bundle
 class Start :AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.start_screen)
+        setContentView(R.layout.create_account1)
     }
 }
