@@ -1,20 +1,36 @@
 <resources>
+    @ General
     <string name="app_name">bandaid</string>
-    <string name="new_ind_acc">Create an individual account:</string>
-    <string name="first_name">First Name</string>
-    <string name="fname_hint">eg. John</string>
-    <string name="last_name">Last Name</string>
-    <string name="lname_hint">eg. Smith</string>
-    <string name="email">Email</string>
-    <string name="email_hint">eg. JohnSmith69@gmail.com</string>
-    <string name="phone_number">Phone Number</string>
-    <string name="phone_hint">(XXX)-XXX-XXXX</string>
-    <string name="password">Password</string>
-    <string name="password_hint">Must be at least 8 characters in length</string>
-    <string name="create_acc">Create Account</string>
-    <string name="existing_user">Already have an account?</string>
-    <string name="sign_in">Sign In</string>
     <string name="logo_description">Bandaid Logo</string>
     <string name="tap_to_begin">Tap to begin</string>
+    <string name="sign_in">Sign In</string>
+    <string name="existing_user">Already have an account?</string>
+
+    @Creating Account
+        @Create Account 1
+        <string name="new_ind_acc">Create an individual account:</string>
+        <string name="first_name">First Name</string>
+        <string name="fname_hint">eg. John</string>
+        <string name="last_name">Last Name</string>
+        <string name="lname_hint">eg. Smith</string>
+        <string name="email">Email</string>
+        <string name="email_hint">eg. JohnSmith69@gmail.com</string>
+        <string name="phone_number">Phone Number</string>
+        <string name="phone_hint">(XXX)-XXX-XXXX</string>
+        <string name="password">Password</string>
+        <string name="password_hint">Must be at least 8 characters in length</string>
+        <string name="create_acc">Create Account</string>
+
+        @Create Account 2
+        <string name="about_you">Tell us about yourself:</string>
+        <string name="instruments">What instrument(s) do you play?</string>
+            @instruments
+                <string name="e_guitar">Electric Guitar</string>
+                <string name="a_guitar">Acoustic Guitar</string>
+                <string name="bass">Bass</string>
+                <string name="vocals">Vocals</string>
+                <string name="drums">Drums</string>
+                <string name="other">Other</string>
+                <string name="keys">Piano/Keyboard</string>
 </resources>
 
